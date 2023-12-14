@@ -1,0 +1,219 @@
+[
+	{
+		"Id" : "startMenu",
+		"Items" :
+		[
+			{
+				"Type" : "lbl",
+				"Id" : "titleLabel",
+				"X" : 0.265,
+				"Y" : 0.101,
+				"Width" : 0.469,
+				"Height" : 0.176,
+				"Text" : "Escape the Flordia Everglades",
+				"TextSize" : 54,
+				"Font" : "Arial",
+				"Color" : "011 223 007"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "startButton",
+				"X" : 0.408,
+				"Y" : 0.647,
+				"Width" : 0.183,
+				"Height" : 0.122,
+				"Text" : "Start",
+				"TextSize" : 32,
+				"Font" : "Arial",
+				"Color" : "011 223 007",
+				"Highlight" : "040 150 037"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "quitGameButton",
+				"X" : 0.854,
+				"Y" : 0.858,
+				"Width" : 0.146,
+				"Height" : 0.092,
+				"Text" : "Quit",
+				"TextSize" : 32,
+				"Font" : "Arial",
+				"Color" : "255 255 255",
+				"Highlight" : "145 145 145"
+			}
+		]
+	},
+	{
+		"Id" : "levelMenu",
+		"Items" :
+		[
+			{
+				"Type" : "btn",
+				"Id" : "levelButton1",
+				"X" : 0.032,
+				"Y" : 0.291,
+				"Width" : 0.164,
+				"Height" : 0.469,
+				"Text" : "Level 1",
+				"TextSize" : 32,
+				"Font" : "Arial",
+				"Color" : "011 223 007",
+				"Highlight" : "040 150 037"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "levelButton2",
+				"X" : 0.225,
+				"Y" : 0.291,
+				"Width" : 0.164,
+				"Height" : 0.469,
+				"Text" : "Level 2",
+				"TextSize" : 32,
+				"Font" : "Arial",
+				"Color" : "011 223 007",
+				"Highlight" : "040 150 037"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "levelButton3",
+				"X" : 0.418,
+				"Y" : 0.291,
+				"Width" : 0.164,
+				"Height" : 0.469,
+				"Text" : "Level 3",
+				"TextSize" : 32,
+				"Font" : "Arial",
+				"Color" : "011 223 007",
+				"Highlight" : "040 150 037"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "levelButton4",
+				"X" : 0.611,
+				"Y" : 0.291,
+				"Width" : 0.164,
+				"Height" : 0.469,
+				"Text" : "Level 4",
+				"TextSize" : 32,
+				"Font" : "Arial",
+				"Color" : "011 223 007",
+				"Highlight" : "040 150 037"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "levelButton5",
+				"X" : 0.804,
+				"Y" : 0.291,
+				"Width" : 0.164,
+				"Height" : 0.469,
+				"Text" : "Level 5",
+				"TextSize" : 32,
+				"Font" : "Arial",
+				"Color" : "011 223 007",
+				"Highlight" : "040 150 037"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "backButton",
+				"X" : 0.854,
+				"Y" : 0.808,
+				"Width" : 0.146,
+				"Height" : 0.092,
+				"Text" : "Back",
+				"TextSize" : 32,
+				"Font" : "Arial",
+				"Color" : "255 255 255",
+				"Highlight" : "145 145 145"
+			}
+		]
+	},
+	{
+		"Id" : "pauseMenu",
+		"Items" :
+		[
+			{
+				"Type" : "btn",
+				"Id" : "resumePauseButton",
+				"X" : 0.296,
+				"Y" : 0.142,
+				"Width" : 0.409,
+				"Height" : 0.165,
+				"Text" : "Resume",
+				"TextSize" : 44,
+				"Font" : "Arial",
+				"Color" : "011 223 007",
+				"Highlight" : "040 150 037"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "restartPauseButton",
+				"X" : 0.296,
+				"Y" : 0.416,
+				"Width" : 0.409,
+				"Height" : 0.165,
+				"Text" : "Restart",
+				"TextSize" : 44,
+				"Font" : "Arial",
+				"Color" : "011 223 007",
+				"Highlight" : "040 150 037"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "quitPauseButton",
+				"X" : 0.296,
+				"Y" : 0.693,
+				"Width" : 0.409,
+				"Height" : 0.165,
+				"Text" : "Quit",
+				"TextSize" : 44,
+				"Font" : "Arial",
+				"Color" : "243 065 055",
+				"Highlight" : "203 064 057"
+			}
+		]
+	},
+	{
+		"Id" : "defeatMenu",
+		"Items" :
+		[
+			{
+				"Type" : "lbl",
+				"Id" : "defeatButton",
+				"X" : 0.296,
+				"Y" : 0.142,
+				"Width" : 0.409,
+				"Height" : 0.165,
+				"Text" : "You Lost",
+				"TextSize" : 44,
+				"Font" : "Arial",
+				"Color" : "187 013 003"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "restartDefeatButton",
+				"X" : 0.296,
+				"Y" : 0.416,
+				"Width" : 0.409,
+				"Height" : 0.165,
+				"Text" : "Restart",
+				"TextSize" : 44,
+				"Font" : "Arial",
+				"Color" : "243 065 055",
+				"Highlight" : "203 064 057"
+			},
+			{
+				"Type" : "btn",
+				"Id" : "quitDefeatButton",
+				"X" : 0.296,
+				"Y" : 0.693,
+				"Width" : 0.409,
+				"Height" : 0.165,
+				"Text" : "Quit",
+				"TextSize" : 44,
+				"Font" : "Arial",
+				"Color" : "243 065 055",
+				"Highlight" : "203 064 057"
+			}
+		]
+	}
+]

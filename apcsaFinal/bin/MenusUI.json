@@ -1,0 +1,12 @@
+[
+	{
+		"Id" : "Menu1",
+		"Items" :
+		[
+			{
+				"Type" : "btn",
+				"ID" : "button1"
+			}
+		]
+	}
+]
